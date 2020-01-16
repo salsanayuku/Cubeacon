@@ -40,8 +40,8 @@ public class MonitoringActivity extends AppCompatActivity implements CBServiceLi
         beacon = getIntent().getParcelableExtra(INTENT_BEACON);
 
         // assign view
-        textState = (TextView) findViewById(R.id.state);
-        TextView textRegion = (TextView) findViewById(R.id.region);
+        textState = findViewById(R.id.state);
+        TextView textRegion = findViewById(R.id.region);
 
         float akurasi = (float) beacon.getAccuracy();
         int pembulatan = Math.round(akurasi);
