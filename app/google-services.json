@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "984598429730",
+    "firebase_url": "https://sensorhc-iot.firebaseio.com",
+    "project_id": "sensorhc-iot",
+    "storage_bucket": "sensorhc-iot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984598429730:android:f339259dc8187bb8f6ca7b",
+        "android_client_info": {
+          "package_name": "com.example.dive_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984598429730-8lohgig0d4nk9s3eu92jce6auq5sjp3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dive_app",
+            "certificate_hash": "f21cee72e6ac4ac487e7c0cc892b8a79be8bd55c"
+          }
+        },
+        {
+          "client_id": "984598429730-nb9r9e9aq7434v93jmglj0q4unr216dj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dive_app",
+            "certificate_hash": "7560a9fafccff23c58c8361199432622cbced438"
+          }
+        },
+        {
+          "client_id": "984598429730-jankhk49e8t0v4jc2hgagnf8romv58u1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgtRykpZuyiEZxFnTw06EuC7UY4oer0K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984598429730-jankhk49e8t0v4jc2hgagnf8romv58u1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984598429730:android:b85e4431c5395a63f6ca7b",
+        "android_client_info": {
+          "package_name": "com.eyro.cubeacon.demos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984598429730-nn9tos3gnrpr8r7eutb8b6ba309rtojl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eyro.cubeacon.demos",
+            "certificate_hash": "f21cee72e6ac4ac487e7c0cc892b8a79be8bd55c"
+          }
+        },
+        {
+          "client_id": "984598429730-jankhk49e8t0v4jc2hgagnf8romv58u1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgtRykpZuyiEZxFnTw06EuC7UY4oer0K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984598429730-jankhk49e8t0v4jc2hgagnf8romv58u1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

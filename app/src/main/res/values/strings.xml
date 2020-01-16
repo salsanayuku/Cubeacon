@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cubeacon Demos</string>
+    <string name="label_region">Region: %1$s</string>
+    <string name="label_state">State: %1$s</string>
+    <string name="ranging">Cubeacons</string>
+    <string name="monitoring">Monitoring Beacon</string>
+    <string name="home">Home</string>
+</resources>
