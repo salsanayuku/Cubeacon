@@ -40,6 +40,7 @@ public class RangingActivity extends AppCompatActivity implements CBRangingListe
 
         // assign view
         listView = (ListView) findViewById(R.id.listview);
+        //lll
 
         // set default adapter
         String[] from = new String[]{"title", "subtitle"};
