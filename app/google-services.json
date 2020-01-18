@@ -60,6 +60,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "984598429730-v66vv9rg7j21r71h6fbg4gb93it78quv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eyro.cubeacon.demos",
+            "certificate_hash": "7560a9fafccff23c58c8361199432622cbced438"
+          }
+        },
+        {
           "client_id": "984598429730-nn9tos3gnrpr8r7eutb8b6ba309rtojl.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
