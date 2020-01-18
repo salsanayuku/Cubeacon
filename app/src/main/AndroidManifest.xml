@@ -10,15 +10,16 @@
         android:theme="@style/AppTheme">
         <activity android:name=".HomeActivity"
             android:label="@string/home">
+
+        </activity>
+        <activity
+            android:name=".RangingActivity"
+            android:label="@string/ranging">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".RangingActivity"
-            android:label="@string/ranging">
         </activity>
         <activity
             android:name=".MonitoringActivity"

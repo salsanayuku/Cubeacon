@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Nama"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/titik1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:text=":"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="UUID"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/titik2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="10.5dp"
+            android:text=":"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/txtID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Major"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/titik3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="6dp"
+            android:text=":"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/txtMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Minor"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/titik4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="6dp"
+            android:text=":"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/txtMinor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Range"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/titik5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="3dp"
+            android:text=":"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/txtRange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>

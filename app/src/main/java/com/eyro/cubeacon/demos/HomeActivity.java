@@ -12,6 +12,9 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.util.ArrayList;
 import java.util.Locale;
 
@@ -21,6 +24,9 @@ public class HomeActivity extends AppCompatActivity {
     TextView textOutput;
     ImageButton imageButton;
 
+    FirebaseDatabase database;
+    DatabaseReference myRef;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +35,9 @@ public class HomeActivity extends AppCompatActivity {
         imageButton = findViewById(R.id.image_button);
 
         textOutput.setVisibility(View.GONE);
+
+        database = FirebaseDatabase.getInstance();
+        myRef = database.getReference();
 
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,7 +63,17 @@ public class HomeActivity extends AppCompatActivity {
                 if (resultCode == RESULT_OK && null != data){
                     ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     textOutput.setVisibility(View.VISIBLE);
-                    textOutput.setText((result.get(0)));
+
+                    if (result != null) {
+                        String hasil = String.valueOf(result.get(0));
+                        textOutput.setText(hasil);
+
+                        database = FirebaseDatabase.getInstance();
+                        myRef = database.getReference();
+
+                        myRef.child("tujuan").setValue(hasil);
+                    }
+
                     Intent abc = new Intent(HomeActivity.this, RangingActivity.class);
                     startActivity(abc);
                 }
